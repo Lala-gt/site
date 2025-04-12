@@ -1,0 +1,1216 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/ChatGPT\ Image\ Apr\ 10\,\ 2025\,\ 03_55_46\ PM.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.home-bar{
+    background-color: rgb(7, 3, 27);
+    width: 100%;
+    height:42px;
+  
+}
+
+.left-side{
+    width: 630px;
+    height: 42px;
+    float: left;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.list{
+    list-style: none;
+    list-style-type: none;
+    padding: 10px 5px;
+}
+
+.list li{
+    display: inline;
+    font-size: 18px;
+    margin-left: 20px;
+    color: #EAEAEA;
+}
+
+.khat{
+    width: 0px;
+    /* width: 50px; */
+    height: 5px;
+    background-color: #00BFFF;
+    position: absolute;
+    float: left;
+    margin-left: 25px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.l1{
+    margin-left: 95px;
+    /* margin-top: -20px; */
+}
+.l2{
+    margin-left: 165px;
+    /* width: 65px; */
+}
+.l3{
+    margin-left: 255px;
+    /* width: 60px; */
+}
+.l4{
+    margin-left: 339px;
+    /* width: 45; */
+}
+.l5{
+    margin-left: 410px;
+}
+.l6{
+    margin-left: 470px;
+}
+.l7{
+    margin-left: 530px;
+}
+
+.left-side .list li:hover .khat {
+    opacity: 1;
+    width: 50px;
+    transition: 1s;
+} 
+
+.dropdown{
+    width: 100px;
+    height: 200px;
+    background-color: #F5FBFF;
+    border: 1px solid #012323;
+    color: black;
+    border-radius: 10px;
+    top: 100%;
+    left: 16px;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    position: absolute; 
+    z-index: 1000; 
+    opacity: 0;
+    visibility: hidden;
+}
+
+.elemnts_appear{
+    position: relative;
+}
+
+.elemnts_appear:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.internal{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 5px;
+    right: 5px;
+    /* background-color: crimson; */
+    color: rgb(10, 3, 37);
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.pp{
+    margin-top: 20px;
+}
+.pp1{
+    margin-top: 20px;
+}
+
+.internal p:hover{
+    color: black;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.internal p {
+    position: relative;
+}
+
+.kat{
+    position: absolute;
+    background-color: #012323;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    z-index: 5000000;
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: 0;
+}
+
+.kat:hover{
+   opacity: 1;
+   width: 70px;
+   transition: 0.5s;
+}
+
+/* .internal p:hover .kat {
+    opacity: 0;
+    width: 90px;
+    transition: 1s;
+} */
+
+.right_side{
+    /* background-color: rgb(72, 54, 144); */
+    float: left;
+    width: 300px;
+    height: 42px;
+    
+}
+ .r1{
+    float: left;
+    font-size: 25px;
+    color: white;
+    position: absolute; 
+    margin-left: 18px;
+    margin-top: 9px;
+}
+
+.inn{
+    display: inline;
+    float: left;
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 9px;
+    left: 80px;
+    border-radius: 10px;
+    border: 1px solid rgb(8, 54, 18);
+}
+.r2{
+    float: left;
+    font-size: 18px;
+    color: brown;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 14px;
+} 
+
+.middle_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #76eeee;
+    text-align: center;
+    background-color: rgba(4, 36, 45, 0.9);
+    border-radius: 10px;
+    
+}
+.welcomig{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.det{
+    color: rgb(234, 234, 248);
+    margin-top: 7px;
+    /* margin-left: 10px; */
+}
+
+.first{
+    width: 112px;
+    height: 42px;
+    background-color: beige;
+    /* padding: 5px; */
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.ff9{
+    margin-left: 5px;
+    background-color: #00BFFF;
+}
+.first:hover{
+    opacity: 0.5;
+}
+
+
+.secondpart{
+    width: 100%;
+    height: 100vh;
+    background-color: #3d6a88;
+    position: relative;
+}
+
+.wlllcome{
+    position: absolute;
+    left: 36%;
+    top: 7%;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #76eeee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line{
+    width: 150px;
+    height: 6px;
+    background-color: #0e2131;
+    background-color: beige;
+    margin-left: 95px;
+    border-radius: 10px;
+}
+
+.firstbox{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    /* background-color: #11eded; */
+    float: left;
+    margin-top: 160px;
+    margin-left: 70px;
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+}
+/* .bb{
+    background-color: greenyellow;
+}
+.sb{
+    background-color: brown;
+    
+}
+.tb{
+    background-color: cadetblue;
+    
+} */
+.ii{
+    margin-top: 13px;
+    position: absolute;
+    color: #76eeee;
+    font-size: 20px;
+}
+.firstwords{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.why{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 17px;
+}
+.w1{
+    margin-left: 80px;
+}
+.read{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 110px;
+    color: #76eeee;
+    cursor: pointer;
+}
+.read:hover{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(48, 26, 10)
+}
+
+.firstbox:hover .firstwords{
+    color: rgb(48, 26, 10);
+}
+.firstbox:hover .why{
+    font-weight: bold;
+}
+
+
+.bara::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    left: 0;
+    height: 0;
+    background-color: rgb(60, 59, 74);
+    opacity: 0;
+}
+.bara:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    transition: 2s;
+}
+
+.thirdpart{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(66, 81, 110) ;
+}
+.kalam{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 15px;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(108, 189, 236);
+    text-transform: uppercase;
+}
+.tanyy{
+    width:100px;
+    height: 5px;
+    margin-left: 70px;
+
+    background-color: beige;
+    border-radius: 10px;
+}
+.elsowar{
+    position: absolute;
+    /* background-color: burlywood; */
+    margin: 80px 80px 50px 140px;
+    width: 900px;
+    height: 450px;
+}
+.zwr{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    background-image: url(../images/newpowa-uKGrLnP0x1U-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-top: 230px;
+    margin-left: 30px;
+}
+
+
+.awr{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    background-image: url(../images/vivint-solar-9CalgkSRZb8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-left: 320px;
+    margin-top: 230px;
+}
+
+.bwr{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    background-image: url(../images/Thin_Film_Flexible_Solar_PV_Installation_2\ \(1\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-left: 610px;
+    margin-top: 230px;
+}
+
+.cdr{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    background-image: url(../images/csaba-gyulavari-PmdVqDJvioA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+
+.ddr{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    background-image: url(../images/nuno-marques-0GbrjL3vZF4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-left: 320px;
+    margin-top: 10px;
+
+}
+
+.edr{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    background-image: url(../images/nazrin-babashova-iKjAj_oq-IE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-left: 610px;
+    margin-top: 10px;
+}
+
+.overlay{
+    background-color: rgba(15, 52, 62, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+.blaa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(123, 226, 226);
+    
+}
+.solar{
+    font-size: 17px;
+    margin-top: 5px 0px;
+}
+.klo{
+    margin-top: 8px ;
+}
+.awelwahda:hover .overlay{
+    visibility: visible;
+    transition: 1s;
+}
+
+.fourthpart{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #323d47;
+
+}
+.whatwee{
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 15px;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(70, 199, 222);
+}
+.horizontal{
+    width:110px;
+    height: 5px;
+    margin-left: 70px;
+    position: absolute;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.textat{
+    position: absolute;
+    /* background-color: burlywood; */
+    margin: 80px 80px 50px 140px;
+    width: 900px;
+    height: 450px;
+    color: #58aadd;
+}
+
+.ttx{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    margin-top: 230px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.tty{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+
+    margin-left: 320px;
+    margin-top: 230px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.ttz{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    
+    margin-left: 610px;
+    margin-top: 230px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.ttc{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.ttd{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    
+    margin-left: 320px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.ttw{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    float: left;
+    
+    margin-left: 610px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.iio{
+    position: absolute;
+    color: #070c51;
+    margin-left: 10px;
+    display: inline;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.abas{
+    position: absolute;
+    margin-left: 40px;
+    display: inline;
+    margin-top: 13px;
+}
+.adas{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+    color: rgb(207, 212, 216);
+}
+.texta1 .abath:hover .abas{
+    color: rgb(207, 212, 216);
+}
+.texta1 .abath:hover .adas{
+    color: #58aadd;
+}
+.overy::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.overy:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: 2s;
+    border-radius: 10px;
+}
+
+.fifthpart{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #4f6477;
+}
+
+.choose{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 130px;
+    margin-top: 130px;
+    color: #EAEAEA;
+}
+.cho{
+    position: absolute;
+    width: 110px;
+    height: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #02031c;
+}
+.ground{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.gabar{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.alagamb{
+    background-image: url(../images/salkkkkk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    position: absolute;
+
+    width: 250px;
+    height: 350px;
+    margin-left: 750px;
+    margin-top: 88px;
+
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    position: absolute;
+    background-color: rgb(4, 26, 42);
+    margin-top: 360px;
+    margin-left: 90px;
+    opacity: 0.5;
+}
+.circle:hover{
+    opacity: 1;
+}
+.circl{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    position: absolute;
+    background-color: rgb(4, 26, 42);
+    margin-top: 360px;
+    opacity: 0.5;
+    margin-left: 120px;
+}
+.circl:hover{
+    opacity: 1;
+}
+.circ{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    position: absolute;
+    background-color: rgb(4, 26, 42);
+    margin-top: 360px;
+    margin-left: 150px;
+    opacity: 0.5;
+}
+.circ:hover{
+    opacity: 1;
+}
+
+.sixthpart{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #1c4352;
+}
+
+.miidlepaart{
+    position: absolute;
+    margin-top: 150px;
+    width: 100%;
+    height: 50%;
+    
+    background-image: url(../images/solar-panels-8593759_1280.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+    
+}
+
+.madula{
+    background-color: rgba(15, 52, 62, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hab{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+   
+    line-height: 25px;
+    
+}
+.habi{
+    margin-left: 380px;
+    margin-top: 100px;
+    text-align: center;
+   
+    line-height: 25px;
+    line-height: 25px;
+    
+}
+.habl{
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 25px;
+}
+.habk{
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.seventhpart{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #245568;
+}
+.halawa{
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 15px;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(70, 199, 222);
+    
+}
+.shed{
+    width:110px;
+    height: 5px;
+    margin-left: 70px;
+    position: absolute;
+    background-color: beige;
+    border-radius: 10px;
+}
+.frsta{
+    width: 240px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+   text-align: center;
+   color: #d0dde4;
+   
+}
+.af{
+    margin-top: 150px;
+    margin-left: 180px;
+    position: absolute;
+    
+    float: left;
+}
+.ac{
+    margin-left: 480px;
+    margin-top: 150px;
+    position: absolute;
+    
+    float: left;
+}
+.ab{
+    margin-left: 780px;
+    margin-top: 150px;
+    position: absolute;
+    
+    float: left;
+}
+.had{
+    margin-top: 40px;
+}
+.frsta:hover .had{
+   color: rgb(92, 114, 238);
+}
+.carcola{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    /* background-color: red; */
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 75px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+.opp{
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+}
+.jack{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: -30px;
+}
+.jick{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: -50px;
+}
+.jwck{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: -50px;
+}
+.jak{
+    width: 100px;
+    height: 20px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+.kli::after{
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 0;
+     top: 0;
+     left: 0;
+     background-color: rgb(13, 31, 91);
+     opacity: 0;
+}
+.kli:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    transition: 2s;
+}
+.eiiigtpart{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #3a7b95;
+}
+.miidlet{
+    position: absolute;
+    margin-top: 150px;
+    width: 100%;
+    height: 50%;
+    
+    background-image: url(../images/Screenshot\ 2025-04-08\ 003614.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+    
+}
+.herrs{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-image: url(../images/ai-generated-8720322_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-left: 200px;
+    margin-top: 60px;
+
+}
+.dtr{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 90px;
+}
+.ioi{
+    color: #76eeee;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 110px;
+}
+.juyt{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.hirrs{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-image: url(../images/man-7267949_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-left: 800px;
+    margin-top: 60px;
+}
+.dtrr{
+    position: absolute;
+    margin-left: 890px;
+    margin-top: 90px;
+}
+.ioii{
+    color: #76eeee;
+    position: absolute;
+    margin-left: 890px;
+    margin-top: 110px;
+}
+.juytt{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 150px;
+}
+.ninthpart{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #214a5b;
+}
+
+.youla{
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 15px;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(70, 199, 222);
+}
+.kalaboca{
+    position: absolute;
+    width:110px;
+    height: 5px;
+    margin-left: 28px;
+    position: absolute;
+    background-color: beige;
+    border-radius: 10px;
+}
+ .ahmed{
+    float: left;
+    background-color: rgb(209, 209, 209);
+    position: absolute;
+    text-align: center;
+    width: 310px;
+    height: 280px;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.shaklo{
+    width: 270px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+    background-image: url(../images/man-3390927_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.esmo{
+    margin-top: 220px;
+    margin-left: 100px;
+    position: absolute;
+}
+.ma3lomato{
+    margin-top: 250px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+.a3aleeh::after {
+    position: absolute;
+   content: "";
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+
+    background-color: rgb(49, 97, 103) ;
+    opacity: 0;
+}
+.team-icons{
+    position: absolute;
+   font-size: 23px;
+   
+   
+    margin-left: 240px;
+    
+    width: 30px;
+    height: 70px;
+    color: #214a5b;
+    background-color: #9ab5c0 ;
+    opacity: 1;
+    visibility: hidden;
+}
+.a3aleeh:hover .team-icons{
+    visibility: visible;
+}
+.a3aleeh:hover::after{
+       width: 100%;
+       height: 100%;
+       opacity: 0.5;
+       transition: 1s;
+}
+
+.haed{
+    margin-left: 440px;
+}
+.h{
+    background-image: url(../images/entrepreneur-593358_1280.jpg);
+}
+.jdl{
+    margin-left: 790px;
+}
+.yu{
+    background-image: url(../images/man-2178721_1280.jpg);
+}
+
+.tenthhhhh{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #2d6e8a;
+}
+.rt{
+    margin-top: 100px;
+    width: 290px;
+    height: 370px;
+}
+.topy{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/despaired-2261021_1280.jpg);
+}
+.jkjy{
+    width:140px;
+    margin-left: 45px;
+}
+.ticons{
+    margin-top: 190px;
+}
+.esdr{
+    margin-left: -1px;
+    margin-left: 32px;
+}
+.mnby{
+    margin-left: 15px;
+}
+.kahat34{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 100px;
+    color: #0e2131;
+}
+.ghyyy{
+    margin-left: 450px;
+}
+.lopiuy{
+    margin-left: 800px;
+}
+.jkiop55{
+    background-image: url(../images/woman-4702060_1280.jpg);
+}
+.olp990{
+    background-image: url(../images/man-9216455_1280.jpg);
+}
+.rt:hover {
+    color: #3c14cf;
+}
+.poiu11{
+    margin-left: 49px;
+}
+.poiu116{
+    margin-left: 59px;
+}
+.rt:hover .esdr{
+  color: rgb(146, 112, 49);
+}
+.kahat34:hover{
+    font-weight: bold;
+}
+.lastttttttt{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-color: #173e4e;
+}
+.elnehaya{
+    position: absolute;
+    background-image: url(../images/500836_solarcellcircuit_shutterstock_611538971_520635.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    width: 210px;
+    height: 140px;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-left: 500px;
+}
+.iconat{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(30, 21, 77, 0.5);
+    margin-top:200px ;
+    font-size: 22px;
+    padding: 10px;
+    color: #00BFFF;
+    margin-left: 5px;
+}
+.iconat:hover{
+    background-color: rgb(18, 12, 50);
+}
+.iconat i{
+    text-align: center;
+
+}
+.b12{
+    margin-left: 480px;
+}
+.latesrrrr{
+    position: absolute;
+    margin-top:250px ;
+    margin-left: 460px;
+}
